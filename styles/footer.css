@@ -1,0 +1,275 @@
+.footer_main {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: open sans,helvetica neue,Helvetica,Arial,sans-serif;
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  color: #fff;
+}
+
+.footer_main .footer_search_main {
+  background-color: #0db14b;
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  padding: 5% 0%;
+}
+
+.footer_main .footer_search_main .footer_search_text {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+@media screen and (max-width: 767px) {
+  .footer_main .footer_search_main .footer_search_text {
+    font-size: 1.5em;
+  }
+  .footer_main .footer_search_main .footer_search_text span {
+    display: block;
+  }
+}
+
+.footer_main .footer_search_main .footer_search_form {
+  width: 80%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer_main .footer_search_main .footer_search_form .footer_input {
+  width: 75%;
+  float: left;
+  height: 58px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  font-size: 1.5 em;
+  color: #fff;
+}
+
+.footer_main .footer_search_main .footer_search_form .footer_input::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #fff;
+}
+
+.footer_main .footer_search_main .footer_search_form .footer_input:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #fff;
+}
+
+.footer_main .footer_search_main .footer_search_form .footer_input::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #fff;
+}
+
+.footer_main .footer_search_main .footer_search_form .footer_input:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #fff;
+}
+
+@media screen and (max-width: 575px) {
+  .footer_main .footer_search_main .footer_search_form .footer_input {
+    width: 70%;
+  }
+}
+
+.footer_main .footer_search_main .footer_search_form .footer_btn {
+  width: 22%;
+  border: none;
+  color: #0db14b;
+  background-color: #fff;
+  border-radius: 6px;
+  height: 58px;
+  font-size: 1.5em;
+  float: right;
+}
+
+.footer_main .footer_search_main .footer_search_form .footer_btn:hover {
+  background-color: #33b06c;
+  color: #fff;
+}
+
+@media screen and (max-width: 575px) {
+  .footer_main .footer_search_main .footer_search_form .footer_btn {
+    width: 28%;
+  }
+}
+
+.footer_main .footer_sponser_main {
+  padding: 3% 0;
+  background-color: #7F7F7F;
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+}
+
+.footer_main .footer_sponser_main .footer_sponser_heading {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  font-size: 2.25em;
+}
+
+@media screen and (max-width: 767px) {
+  .footer_main .footer_sponser_main .footer_sponser_heading {
+    font-size: 2em;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .footer_main .footer_sponser_main .footer_sponser_heading {
+    padding: 0 2%;
+  }
+}
+
+.footer_main .footer_sponser_main .footer_sponser_content {
+  width: 50%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  float: left;
+  text-align: center;
+  padding: 2% 0%;
+  font-size: 2em;
+}
+
+@media screen and (max-width: 575px) {
+  .footer_main .footer_sponser_main .footer_sponser_content {
+    font-size: 1.2em;
+  }
+}
+
+.footer_main .footer_contact_main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media screen and (max-width: 991px) {
+  .footer_main .footer_contact_main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer_main .footer_contact_main .footer_contact_connect {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #434343;
+  padding: 4% 2%;
+}
+
+.footer_main .footer_contact_main .footer_contact_connect .footer_ul {
+  list-style: none;
+  font-size: 1em;
+}
+
+.footer_main .footer_contact_main .footer_contact_connect .footer_ul h4 {
+  font-size: 1.25em;
+}
+
+@media screen and (max-width: 991px) {
+  .footer_main .footer_contact_main .footer_contact_connect {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.footer_main .footer_contact_main .footer_contact_connect .row .col-md-12.col-lg-6 {
+  padding: 2% 0%;
+}
+
+.footer_main .footer_contact_main .footer_contact_connect .row .col-lg-3.col-md-6.col-6 {
+  padding: 2% 2%;
+}
+
+.footer_main .footer_contact_main .footer_contact_connect .footer_sw_image {
+  height: auto;
+  display: block;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.footer_main .footer_contact_main .footer_contact_program {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #262626;
+  padding: 4% 2%;
+  font-size: 1em;
+}
+
+.footer_main .footer_contact_main .footer_contact_program h4 {
+  font-size: 1.25em;
+  color: #0db14b;
+}
+
+.footer_main .footer_contact_main .footer_contact_program .footer_ul {
+  list-style: none;
+  font-size: 1em;
+  padding: 5px 0;
+}
+
+.footer_main .footer_contact_main .footer_contact_program .footer_ul li {
+  cursor: pointer;
+}
+
+.footer_main .footer_contact_main .footer_contact_program .footer_ul li:hover {
+  color: #434343;
+}
+
+@media screen and (max-width: 991px) {
+  .footer_main .footer_contact_main .footer_contact_program .footer_ul li {
+    display: inline-block;
+    font-size: .875em;
+    padding: 0 6px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer_main .footer_contact_main .footer_contact_program .footer_ul {
+    display: none;
+  }
+}
+
+.footer_main .footer_contact_main .footer_contact_program .col-lg-6.col-md-12 {
+  padding: 3% 0%;
+}
+
+.footer_main .footer_contact_main .footer_contact_program .col-lg-6.col-md-12 p {
+  font-size: .75em;
+}
+
+.footer_main .footer_contact_main .footer_contact_program .col-lg-6.col-md-12 p a {
+  text-decoration: none;
+  color: #0db14b;
+  cursor: pointer;
+}
+
+.footer_main .footer_contact_main .footer_contact_program .col-lg-6.col-md-12 p a:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 991px) {
+  .footer_main .footer_contact_main .footer_contact_program .col-md-12 {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=footer.css.map */
