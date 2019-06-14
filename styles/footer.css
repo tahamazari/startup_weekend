@@ -1,3 +1,88 @@
+.jumbotron_main {
+  height: auto;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  background-color: #f4f4f4;
+}
+
+.jumbotron_main .container {
+  padding: 4% 0% 3% 0%;
+}
+
+.jumbotron_main .jumbotron_heading {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2.25em;
+  font-weight: 800;
+  padding: 0% 0% 2%;
+}
+
+.jumbotron_main .jumbotron_sub_heading {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5em;
+  color: gray;
+}
+
+.jumbotron_main .jumbotron_block_main {
+  width: 25%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  float: left;
+  padding: 5% 0% 12%;
+}
+
+@media screen and (max-width: 991px) {
+  .jumbotron_main .jumbotron_block_main {
+    width: 50%;
+    padding: 2% 0% 6%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .jumbotron_main .jumbotron_block_main {
+    width: 100%;
+  }
+}
+
+.jumbotron_main .jumbotron_block_main .jumbotron_block {
+  width: 90%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 300px;
+}
+
+.jumbotron_main .jumbotron_block_main .jumbotron_block .heading {
+  width: 80%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.75em;
+  padding: 4% 0%;
+  margin: 0 auto;
+}
+
+.jumbotron_main .jumbotron_block_main .jumbotron_block .content {
+  width: 80%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  font-size: 1.75em;
+  padding: 2% 0%;
+  font-size: 1em;
+  margin: 0 auto;
+  color: #414141;
+}
+
 .footer_main {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
